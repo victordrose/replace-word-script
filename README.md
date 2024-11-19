@@ -30,14 +30,14 @@ This project is a Python-based script that processes files in a directory, detec
 
 ## Configuration
     Update the word_replacements dictionary in the script to define custom words and their replacements:
-    ```python
+
     word_replacements = {
         "password": "REDACTED",
         "secret": "REDACTED",
         "username": "USER",
         "email": "EMAIL",
     }
-    ```
+
 ## Requirements
     Python 3.6 or higher.
 
