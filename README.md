@@ -29,7 +29,7 @@ This project is a Python-based script that processes files in a directory, detec
     The script will modify the files in place, replacing the specified words.
 
 ## Configuration
-    Update the word_replacements dictionary in the script to define custom words and their replacements:
+Update the word_replacements dictionary in the script to define custom words and their replacements:
 
     word_replacements = {
         "password": "REDACTED",
@@ -49,13 +49,13 @@ This project is a Python-based script that processes files in a directory, detec
     ├── script_name.py         # Main Python script
     └── README.md              # Project documentation
 ## Example
-    For an input file named input.txt with the content:
+For an input file named input.txt with the content:
 
         username: admin
         password: 12345 
         email: admin@example.com
 
-    After running the script, the content will be:
+After running the script, the content will be:
 
         username: USER
         password: REDACTED
